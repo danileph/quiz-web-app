@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import { Question } from "@/models/question";
-import { useGetTopic } from "@/api/topics/getTopics/useGetTopic";
+import { useGetTopic } from "@/api/topics/getTopic/useGetTopic";
 import { Link, useParams } from "react-router-dom";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";

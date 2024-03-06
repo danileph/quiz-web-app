@@ -8,6 +8,7 @@ import {
 import { TestPage } from "@/pages/test";
 import { TopicsPage } from "@/pages/topics";
 import { TopicPage } from "@/pages/topic";
+import { ProgressMonitoring } from "@/pages/progress-monitoring";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "topics/:topicUrl/test",
     element: <TestPage />,
+  },
+  {
+    path: "progress-monitoring",
+    element: <ProgressMonitoring />,
   },
 ]);
 

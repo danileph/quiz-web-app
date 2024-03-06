@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { useGetTopic } from "@/api/topics/getTopics/useGetTopic";
+import { useGetTopic } from "@/api/topics/getTopic/useGetTopic";
 import { Link, useParams } from "react-router-dom";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
