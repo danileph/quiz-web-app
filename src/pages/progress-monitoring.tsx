@@ -24,7 +24,7 @@ export const ProgressMonitoring: FC<IProgressMonitoringProps> = () => {
       </h1>
       <Separator className={"mt-1 mb-6"} />
       <div className={"flex items-center space-x-2"}>
-        <Tabs className={"w-full"}>
+        <Tabs className={"w-full"} defaultValue={"by-topics"}>
           <TabsList className={"w-full flex"}>
             <TabsTrigger value={"by-topics"} className={"flex-1"}>
               По темам
